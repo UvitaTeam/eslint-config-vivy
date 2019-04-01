@@ -1,3 +1,4 @@
+# To trigger a new release one has to manually draft a release from https://github.com/UvitaTeam/javascript-linters/releases
 version: 2
 jobs:
   release:
