@@ -1,18 +1,29 @@
 module.exports = {
   env: {
     browser: true,
-    es6: true,
     node: true,
+    jest: true
   },
-  parser: "babel-eslint",
-  extends: ["airbnb-base", "prettier"],
-  plugins: ["prettier"],
+  parser: 'babel-eslint',
+  extends: [
+    'airbnb',
+    'prettier',
+    'prettier/react',
+    "plugin:jest/recommended"
+],
+  "plugins": [
+    "prettier",
+    "jest"
+  ],
   rules: {
     "class-methods-use-this": 0,
     "import/prefer-default-export": 0,
-    "prettier/prettier": ["error"]
+    "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
+    "prettier/prettier": ["error"],
+    "no-underscore-dangle": 0,
+    "import/no-extraneous-dependencies": false
   },
-  globals: {
+   globals: {
     "window": false,
     "document": false,
     "it": false,
@@ -22,7 +33,7 @@ module.exports = {
     "before": false,
     "afterEach": false,
     "afterAll": false,
-    "atob": false,
-    "btoa": false
+    "btoa": false,
+    "atob": false
   }
 }
