@@ -1,0 +1,39 @@
+{
+  "name": "eslint-config-vivy",
+  "version": "1.0.2",
+  "description": "A Vivy eslint configuration ready to be used in multiple projects.",
+  "peerDependencies": {
+    "eslint": "^5.13.0",
+    "prettier": "^1.16.4"
+  },
+  "dependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^5.13.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-prettier": "^4.0.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "prettier": "^1.16.4"
+  },
+  "main": "index.js",
+  "keywords": [
+    "vivy",
+    "eslint",
+    "eslint-config",
+    "prettier",
+    "prettier-config"
+  ],
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UvitaTeam/javascript-linters.git"
+  },
+  "homepage": "https://github.com/UvitaTeam/javascript-linters#readme",
+  "bugs": {
+    "url": "https://github.com/UvitaTeam/javascript-linters/issues"
+  },
+  "author": "Vivy GmbH",
+  "license": "MIT"
+}
