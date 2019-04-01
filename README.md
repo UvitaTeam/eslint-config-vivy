@@ -1,1 +1,1 @@
-# eslint-config-airbnb
+# eslint-config-vivy
