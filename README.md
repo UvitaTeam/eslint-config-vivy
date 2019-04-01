@@ -1,1 +1,1 @@
-# eslint-config-vivy
+# javascript-linters
