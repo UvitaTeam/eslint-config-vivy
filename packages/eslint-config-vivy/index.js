@@ -2,7 +2,8 @@ module.exports = {
   env: {
     browser: true,
     node: true,
-    jest: true
+    jest: true,
+    "jest/globals": true
   },
   parser: 'babel-eslint',
   extends: [
@@ -34,6 +35,11 @@ module.exports = {
     "afterEach": false,
     "afterAll": false,
     "btoa": false,
-    "atob": false
+    "atob": false,
+    "localStorage": false,
+    "fetch": false,
+    "Blob": false,
+    "URLSearchParams": false,
+    "navigator": false,
   }
 }
