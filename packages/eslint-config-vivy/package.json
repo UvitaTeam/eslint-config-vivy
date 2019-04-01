@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-vivy",
-  "version": "1.0.4",
-  "description": "A Vivy eslint configuration ready to be used in multiple projects.",
+  "version": "1.0.5",
+  "description": "A Vivy ESLint shareable config.",
   "dependencies": {
     "eslint-config-airbnb": "^17.1.0",
     "eslint-config-prettier": "^4.0.0",
@@ -15,18 +15,35 @@
   "devDependencies": {
     "eslint": "^5.4.0"
   },
+  "peerDependencies": {
+    "eslint": ">=5.4.0"
+  },
   "main": "index.js",
+  "files": [
+    "index.js"
+  ],
   "keywords": [
     "vivy",
+    "code",
+    "quality",
+    "style",
+    "lint",
+    "linter",
+    "eslint",
+    "validate",
+    "code style",
+    "strict",
+    "check",
+    "checker",
+    "verify",
+    "enforce",
+    "hint",
     "eslint",
     "eslint-config",
     "prettier",
     "prettier-config",
     "jsx",
     "react"
-  ],
-  "files": [
-    "index.js"
   ],
   "repository": {
     "type": "git",
