@@ -1,18 +1,17 @@
 {
   "name": "eslint-config-vivy",
-  "version": "1.0.2",
+  "version": "1.0.4",
   "description": "A Vivy eslint configuration ready to be used in multiple projects.",
-  "peerDependencies": {
-    "eslint": "^5.13.0",
-    "prettier": "^1.16.4"
-  },
   "dependencies": {
     "babel-eslint": "^10.0.1",
     "eslint": "^5.13.0",
-    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-config-airbnb": "^17.1.0",
     "eslint-config-prettier": "^4.0.0",
     "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jest": "^22.4.1",
+    "eslint-plugin-jsx-a11y": "^6.2.0",
     "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react": "^7.12.4",
     "prettier": "^1.16.4"
   },
   "main": "index.js",
@@ -21,7 +20,9 @@
     "eslint",
     "eslint-config",
     "prettier",
-    "prettier-config"
+    "prettier-config",
+    "jsx",
+    "react"
   ],
   "files": [
     "index.js"
