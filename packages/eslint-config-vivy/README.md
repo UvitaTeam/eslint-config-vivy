@@ -11,7 +11,7 @@ npm install --save-dev eslint eslint-config-vivy
 
 Once the `eslint-config-vivy` package is installed, you can use it by specifying `vivy` in the [`extends`](http://eslint.org/docs/user-guide/configuring#extending-configuration-files) section of your [ESLint configuration](http://eslint.org/docs/user-guide/configuring).
 
-```javascript
+```
 {
   "extends": "vivy",
   "rules": {
