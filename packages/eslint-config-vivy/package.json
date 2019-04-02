@@ -47,11 +47,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/UvitaTeam/javascript-linters.git"
+    "url": "git+https://github.com/VivyTeam/javascript-linters.git"
   },
-  "homepage": "https://github.com/UvitaTeam/javascript-linters#readme",
+  "homepage": "https://github.com/VivyTeam/javascript-linters#readme",
   "bugs": {
-    "url": "https://github.com/UvitaTeam/javascript-linters/issues"
+    "url": "https://github.com/VivyTeam/javascript-linters/issues"
   },
   "author": "Vivy GmbH",
   "license": "MIT"
