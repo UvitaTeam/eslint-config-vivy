@@ -1,10 +1,4 @@
 module.exports = {
-  env: {
-    browser: true,
-    node: true,
-    jest: true,
-    "jest/globals": true
-  },
   parser: 'babel-eslint',
   extends: [
     'airbnb',
