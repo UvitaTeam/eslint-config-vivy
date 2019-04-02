@@ -15,7 +15,6 @@ module.exports = {
     "import/prefer-default-export": 0,
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
     "prettier/prettier": ["error"],
-    "no-underscore-dangle": 0,
-    "import/no-extraneous-dependencies": false
+    "no-underscore-dangle": 0
   }
 }
