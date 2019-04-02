@@ -24,7 +24,7 @@ Once the `eslint-config-vivy` package is installed, you can use it by specifying
 ## Development
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. 
-Please clone the repo using `git clone git@github.com:UvitaTeam/javascript-linters.git`, then install the dependencies `npm i`. 
+Please clone the repo using `git clone git@github.com:VivyTeam/javascript-linters.git`, then install the dependencies `npm i`. 
 Now you are good to go in order to start developing.
 
 ## Deployment
@@ -33,11 +33,11 @@ will add in separate PR as in this PR there is not deployment circle
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/UvitaTeam/javascript-linters/releases). 
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/VivyTeam/javascript-linters/releases). 
 
 ## Authors
 
-* **Vivy GmbH** - *Initial work* - [WebTeam](https://github.com/orgs/UvitaTeam/teams/web) 
+* **Vivy GmbH** - *Initial work* - [WebTeam](https://github.com/orgs/VivyTeam/teams/web) 
 
 See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
