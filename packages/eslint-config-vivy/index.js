@@ -17,23 +17,5 @@ module.exports = {
     "prettier/prettier": ["error"],
     "no-underscore-dangle": 0,
     "import/no-extraneous-dependencies": false
-  },
-   globals: {
-    "window": false,
-    "document": false,
-    "it": false,
-    "describe": false,
-    "expect": false,
-    "beforeEach": false,
-    "before": false,
-    "afterEach": false,
-    "afterAll": false,
-    "btoa": false,
-    "atob": false,
-    "localStorage": false,
-    "fetch": false,
-    "Blob": false,
-    "URLSearchParams": false,
-    "navigator": false,
   }
 }
