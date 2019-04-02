@@ -3,6 +3,7 @@
 A Vivy eslint configuration ready to be used in multiple projects.
 
 ## Installation
+
 ```
 npm install --save-dev eslint eslint-config-vivy
 ```
