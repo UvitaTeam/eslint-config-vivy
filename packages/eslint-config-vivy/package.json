@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-vivy",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "description": "A Vivy ESLint shareable config.",
   "dependencies": {
     "babel-eslint": "^10.0.1",
