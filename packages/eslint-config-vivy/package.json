@@ -3,15 +3,17 @@
   "version": "1.0.8",
   "description": "A Vivy ESLint shareable config.",
   "dependencies": {
-    "babel-eslint": "^10.0.2",
-    "eslint-config-airbnb": "^17.1.1",
-    "eslint-config-prettier": "^6.9.0",
-    "eslint-plugin-import": "^2.18.0",
-    "eslint-plugin-jest": "^23.6.0",
+    "@typescript-eslint/parser": "^2.34.0",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-jest": "^23.13.1",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-prettier": "^3.1.0",
-    "eslint-plugin-react": "^7.14.2",
-    "prettier": "^2.0.1"
+    "eslint-plugin-react": "^7.20.0",
+    "eslint-plugin-react-hooks": "^4.0.2",
+    "prettier": "^2.0.1",
+    "typescript": "^3.9.2",
   },
   "devDependencies": {
     "eslint": "^6.0.1"
