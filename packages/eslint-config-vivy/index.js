@@ -4,7 +4,6 @@ module.exports = {
     "airbnb",
     "prettier",
     "prettier/react",
-    "plugin:react/recommended",
     "plugin:jest/recommended",
   ],
   plugins: ["@typescript-eslint", "prettier", "jest", "react"],
@@ -16,9 +15,7 @@ module.exports = {
       { extensions: [".js", ".jsx", ".tsx"] },
     ],
     "prettier/prettier": ["error"],
-    "react/jsx-props-no-spreading": 1,
     "import/extensions": 0,
-    "react/display-name": 0,
   },
   settings: {
     "import/resolver": {
