@@ -1,7 +1,7 @@
 {
-  "name": "eslint-config-vivy",
-  "version": "1.0.8",
-  "description": "A Vivy ESLint shareable config.",
+  "name": "@vivy/eslint-config",
+  "version": "1.0.0",
+  "description": "A Vivy ESLint shareable config. Should be used for ALL web projects",
   "dependencies": {
     "@typescript-eslint/parser": "^2.34.0",
     "eslint-config-airbnb": "^18.1.0",
