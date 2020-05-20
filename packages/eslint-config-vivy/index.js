@@ -4,10 +4,9 @@ module.exports = {
     "airbnb",
     "prettier",
     "prettier/react",
-    "plugin:react/recommended",
     "plugin:jest/recommended",
   ],
-  plugins: ["prettier", "jest", "react"],
+  plugins: ["@typescript-eslint", "prettier", "jest", "react"],
   rules: {
     "class-methods-use-this": 0,
     "import/prefer-default-export": 0,
@@ -16,6 +15,14 @@ module.exports = {
       { extensions: [".js", ".jsx", ".tsx"] },
     ],
     "prettier/prettier": ["error"],
+    "import/extensions": 0,
+  },
+  settings: {
+    "import/resolver": {
+      node: {
+        extensions: [".js", ".jsx", ".ts", ".tsx"],
+      },
+    },
   },
   parserOptions: {
     ecmaVersion: 6,
