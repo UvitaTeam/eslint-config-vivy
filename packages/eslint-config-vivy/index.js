@@ -31,4 +31,14 @@ module.exports = {
       jsx: true,
     },
   },
+  overrides: [
+    {
+      files: ["**/*.ts", "**/*.tsx"],
+      rules: {
+        "no-unused-vars": "off",
+        "no-undef": "off",
+        "react/prop-types": "off",
+      },
+    },
+  ],
 };
