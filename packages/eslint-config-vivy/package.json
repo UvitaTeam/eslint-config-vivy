@@ -1,6 +1,6 @@
 {
   "name": "@vivy/eslint-config",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A Vivy ESLint shareable config. Should be used for ALL web projects",
   "dependencies": {
     "@typescript-eslint/parser": "^2.34.0",
